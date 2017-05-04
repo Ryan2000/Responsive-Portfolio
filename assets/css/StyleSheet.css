@@ -1,0 +1,378 @@
+body {
+    background-image: url("../images/old_moon.png");
+    max-width: 100%;
+}
+
+body > div {
+    display: flex;
+}
+
+header {
+    background-color: #4aaaa5;
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+    font: Georgia, Times, "Times New Roman", serif;
+    padding: 20px 0px 20px 0px;
+    max-width: 250px;
+    position: absolute;
+    top: 0px;
+    left: 75px;
+}
+
+header > h1 {
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+}
+
+nav {
+    background-color: white;
+    color: #777777;
+    padding: 20px 0px 20px 0px;
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 0px 0px 1px 0px;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+nav > a {
+    padding-right: 20px;
+}
+
+nav > a:last-child {
+    padding-right: 50px;
+}
+
+section {
+    max-width: 650px;
+    background-color: white;
+    color: #777777;
+    padding: 10px;
+    margin: 25px 0px 25px 75px;
+}
+
+section > h1 {
+    color: #4aaaa5;
+    font-size: xx-large;
+    font: Georgia, Times, "Times New Roman", serif;
+    padding: 10px 0px 10px 0px;
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 0px 0px 1px 0px;
+}
+
+section p + p {
+    margin-top: 10px;
+}
+
+section > img {
+    max-width: 200px;
+    margin: 20px 20px 20px 0px;
+    float: left;
+}
+
+section > p {
+    padding-top: 20px;
+    word-wrap: break;
+}
+
+aside {
+    background-color: white;
+    padding: 10px;
+    max-height: 120px;
+    margin: 25px 15px 0px 40px;
+    max-width: 270px;
+}
+
+aside > h2 {
+    color: #4aaaa5;
+    font: Georgia, Times, "Times New Roman", serif;
+    font-size: x-large;
+    padding: 10px 0px 10px 0px;
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 0px 0px 1px 0px;
+}
+
+aside > div {
+    margin: 20px 0px 20px 0px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+aside > div > img {
+    padding-right: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    color: white;
+    background-color: #656667;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    border-style: solid;
+    border-color: #4aaaa5;
+    border-width: 10px 0px 0px 0px;
+}
+
+#Portfolio > div {
+    width: 150px;
+    height: 100px;
+    margin: 20px 5px 20px 5px;
+}
+
+#Portfolio span {
+    position: relative;
+    color: white;
+    background-color: #4aaaa5;
+    top: 65px;
+    padding: 5px 0px 5px 0px;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+#Hangman {
+    background-image: url("../images/Hangman.png");
+}
+
+#Sun {
+    background-image: url("../images/Going_to_the_Sun_960x720.jpeg");
+}
+
+#NYC {
+    background-image: url("../images/NYCFresh.png");
+}
+
+#Dreams {
+    background-image: url("../images/Dreams_960x720.jpeg");
+}
+
+#Night {
+    background-image: url("../images/nightlife.jpg");
+}
+
+textarea,
+input {
+    outline: #dddddd;
+    outline-style: solid;
+    outline-width: thin;
+    margin: 5px 0px 5px 0px;
+    width: 100%;
+}
+
+button {
+    background-color: #4aaaa5;
+    color: white;
+    border-style: none;
+    padding: 10px 20px 10px 20px;
+}
+
+@media screen and (max-width: 980px){
+    body {
+        max-width: 980px;
+        min-height: 100vh;
+    }
+
+    header {
+        font-size: x-large;
+        max-width: 200px;
+        position: absolute;
+        top: 0px;
+        left: 75px;
+    }
+
+    nav {
+        padding: 23px 0px 25px 0px;
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+    }
+
+    nav > a {
+        padding-right: 20px;
+    }
+
+    nav > a:last-child {
+        padding-right: 50px;
+    }
+
+    section {
+        margin: 25px 0px 25px 75px;
+        max-width: 650px;
+    }
+
+    section > img {
+        max-width: 200px;
+        margin: 20px 20px 20px 0px;
+        float: left;
+    }
+
+    section > p {
+        padding-top: 20px;
+        word-wrap: break;
+    }
+
+    aside {
+        margin: 25px 15px 0px 40px;
+        max-width: 270px;
+    }
+
+    aside > h2 {
+        font-size: large;
+    }
+
+    aside > div > img {
+        width: 40px;
+        height: 40px;
+    }
+
+    footer {
+        clear: both;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        max-width: 768px;
+        min-height: 100vh;
+    }
+
+    body > div {
+        display: grid;
+    }
+
+    header {
+        font-size: x-large;
+        max-width: 200px;
+        position: absolute;
+        top: 0px;
+        left: 15px;
+    }
+
+    header > h1 {
+        text-align: center;
+        padding: 0px 20px 0px 20px;
+    }
+
+    nav {
+        padding: 23px 0px 25px 0px;
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+    }
+
+    nav > a {
+        padding-right: 20px;
+    }
+
+    section {
+        margin: 15px;
+        max-width: 100%;
+    }
+
+    section > img {
+        max-width: 200px;
+        margin: 20px 20px 0px 0px;
+        float: left;
+    }
+
+    section > p {
+        padding-top: 20px;
+        word-wrap: break;
+    }
+
+    aside {
+        margin: 15px;
+        max-width: 100%;
+    }
+
+    aside > h2 {
+        font-size: x-large;
+    }
+
+    aside > div > img {
+        width: 40px;
+        height: 40px;
+    }
+
+    #Portfolio > div {
+        float: left;
+        margin: 20px;
+        width: 315px;
+        height: 240px;
+        background-repeat: no-repeat;
+    }
+
+    #Portfolio span {
+        top: 170px;
+        padding: 20px 0px 20px 0px;
+    }
+}
+
+@media screen and (max-width: 640px){
+    body {
+        max-width: 640px;
+    }
+
+    header {
+        font-size: x-large;
+        position: static;
+        max-width: 640px;
+    }
+
+    header > h1 {
+        text-align: center;
+    }
+
+    nav {
+        padding: 10px 0px 10px 0px;
+        display: flex;
+        justify-content: space-around;
+        clear: both;
+    }
+
+    section {
+        margin: 15px;
+    }
+
+    section > img {
+        max-width: 100%;
+        margin: 20px 0px 0px 0px;
+        float: none;
+    }
+
+    footer {
+        margin: 15px;
+    }
+
+    aside {
+        max-width: 100%;
+        margin: 15px;
+        float: none;
+    }
+
+    aside > h2 {
+        font-size: large;
+    }
+
+    aside > div > img {
+        width: 40px;
+        height: 40px;
+    }
+
+    #Portfolio > div {
+        width: 250px;
+        height: 200px;
+        margin: 20px 10px 20px 10px;
+    }
+
+    #Portfolio span {
+        top: 165px;
+        padding: 5px 0px 5px 0px;
+    }
+}
