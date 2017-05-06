@@ -338,7 +338,6 @@ input[type=submit] {
     background-color: #333;
     background-image: url("../images/old_moon.png");
 
-
 }
 
 .wrapper {
@@ -354,8 +353,8 @@ input[type=submit] {
 }
 
 .sidebar {
-    margin-right: 35px;
     float: left;
+    margin-left: 30px;
 }
 
 nav {
@@ -377,18 +376,18 @@ section > p {
     word-wrap: break-word;
     width: 100%;
     text-align: justify;
+
 }
 
 #logo {
-    margin-left: 10px;
+    margin-left: 30px;
 }
 
 .main-section {
     width: 100%;
+    margin-left:30px;
 }
 }
-
-
 
 
 /* Width at 640px and below */
@@ -402,14 +401,17 @@ section > p {
     .wrapper {
         /* Box-model */
         width: 100%;
-        padding: 20px;
+        margin-left: 0px;
+
     }
-
-
 
     .container
     .sidebar {
         width: 100%;
+    }
+
+    .sidebar {
+        margin-left: 0px;
     }
 
     .profile-pic {
@@ -438,5 +440,13 @@ section > p {
 
     #logo {
         width:100%;
+        margin-left: 0px;
     }
+
+    .main-section {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+
 }
